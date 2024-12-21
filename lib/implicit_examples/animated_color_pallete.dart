@@ -50,9 +50,7 @@ class _AnimatedColorPaletteState extends State<AnimatedColorPalette> {
                   color: color,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                onEnd: () {
-                  print("ended");
-                },
+                onEnd: () {},
               ),
             ElevatedButton(
               onPressed: regeneratePalette,
